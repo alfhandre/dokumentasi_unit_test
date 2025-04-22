@@ -1,0 +1,21 @@
+import 'package:test/test.dart';
+
+void main() {
+  var data = "";
+  setUp(() {
+    data = "nama";
+  });
+
+  group("Test String", () {
+    test("String Andre", () {
+      data = "Andre";
+      final res = "$data Lutfi";
+      expect(res, "Andre Lutfi");
+    });
+    test("String Gita", () {
+      data = "Gita";
+      final res = "$data Daeli";
+      expect(res, "Gita Daeli");
+    });
+  });
+}

@@ -1,0 +1,6 @@
+# dart_test.yaml
+test_on: "mac-os"
+
+tags:
+  second:
+    skip: "second tag is disable"
